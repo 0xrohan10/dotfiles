@@ -1,0 +1,63 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+	"agent_servers": {
+		"claude": {
+			"default_mode": "plan"
+		}
+	},
+	"autosave": "on_focus_change",
+	"icon_theme": "Colored Zed Icons Theme Dark",
+	"agent": {
+		"play_sound_when_agent_done": true,
+  "default_model": {
+			"provider": "anthropic",
+			"model": "claude-opus-4-latest"
+		},
+		"dock": "left",
+		"default_width": 480
+	},
+	"base_keymap": "SublimeText",
+	"buffer_font_family": "Input Mono",
+	"ui_font_size": 13,
+	"buffer_font_size": 14,
+	"buffer_line_height": {
+		"custom": 1.84
+	},
+	"current_line_highlight": "line",
+	"languages": {
+		"TypeScript": {
+			"formatter": { "language_server": { "name": "biome" } }
+		},
+		"TSX": {
+			"formatter": { "language_server": { "name": "biome" } }
+		},
+		"JavaScript": { "formatter": { "language_server": { "name": "biome" } } },
+		"JSON": { "formatter": { "language_server": { "name": "biome" } } },
+		"JSONC": { "formatter": { "language_server": { "name": "biome" } } },
+		"CSS": { "formatter": { "language_server": { "name": "biome" } } }
+	},
+	"preferred_line_length": 110,
+	"soft_wrap": "preferred_line_length",
+	"project_panel": {
+		"dock": "right",
+		"default_width": 200,
+		"indent_size": 14
+	},
+	"tabs": {
+		"file_icons": true,
+		"git_status": true,
+		"activate_on_close": "neighbour"
+	},
+	"theme": {
+		"mode": "system",
+		"light": "One Light",
+		"dark": "Github Dark"
+	}
+}
